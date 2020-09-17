@@ -1,16 +1,6 @@
 --------------------------------------
 bibliotecas usadas
---------------------------------------
-Criar o arquivo package
-npm init
-
-//Gerencia as requisições, rotas e URLs, entre outra funcionalidades
-npm install express
-
-//Instalar o módulo para reiniciar o servidor sempre que houver alteração no código fonte
-npm install -D nodemon
-
-//Rodar o projeto usando o nodemon 
+-----------------------------------
 nodemon app.js
 
 //importa o express
@@ -40,53 +30,4 @@ biblioteca de interface.
 
 npm install cookie-parser express-session express-flash --save
 importando biblioteca de mensagens flash
-
-template helpers : permite varios dados
-
-
-
-//middleware exemplo de login
-/* 
-PROCESSO DE LOGIN
-- Requisição
-- Validar os campos
-- Autorizar o usuario
- - Resposta (CONTROLLER)
- --Positiva
- --Negativa
-
-*/
-
-Sistema de cadastro de clientes em um blog,
-para divulgação dos seus cursos.
-
-Sistema de login
-- email 
-- senha
-- esqueceu a senha
-
-Sistema de cadastro
-- nome
-- email
-- senha
-
-Tela princiapal
-- home
-
-Adicionar post
-- Imagem
-- Titulo 
-- Corpo
-- tags
-
-
-tags
-- incluir de tags
-- edição de tags
-
-perfil
-- editar perfil
- --- mudar nome
- --- e-mail
-
 
